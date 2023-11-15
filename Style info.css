@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #CDF1D3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.50cm;
+  padding: 0px;
+  text-align: center;
+}
+table.nigga{
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boton{
+  margin: 7px 14px;
+  padding: 10px 0px;
+  color: #FFFFFF;
+  font-size: 1.15rem;
+  background-color: #6CF084;
+  border: #6CF084 3px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+  transition: all .3s cubic-bezier(0,0,.5,1);
+}
+.boton:hover{
+  background-color: #33CB4F;
+  border: 3px solid  #fffefd;
+  border-radius: 8px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.16);
+  transform: scale3d(1.01,1.01,1.01);
+} 
+form button b {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.25cm;
+  padding: 0px ;
+}
+.b{
+  font-size: 12px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  float: right;
+}
+.a{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-decoration-line: none;
+  font-size:40px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+article.content h1,h2{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem 0rem;
+}
+article.content p{
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  border: none;
+  display: flex;
+  padding: 12px;
+  margin: 0px 0rem 0rem 10rem;
+  text-align: left;
+}
+
+.container .content {
+  border: 3px solid #ffff;
+  border-radius: 8px;
+  background-color: #76E58C;
+  padding: 10px;
+  margin: 2rem;
+  flex: 1;
+  font-size: 15px;
+  height: 70%;
+}
+.side {
+  border: 3px solid #ffff;
+  background-color: #76E58C;
+  padding: 5px;
+  border-radius: 8px;
+}
+.container .side {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container .side div  {
+  border: 0px solid #777;
+  height: 376px;
+  width: 226px;
+  margin: 5px;
+}
+
+.container .side div:not(:first-child) {
+  margin-top: 10px;
+}
+asida.side {
+  border: 3px solid #fff;
+  border-radius: 5px;
+}
+div a img.animate{
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+  transition: all .3s cubic-bezier(0,0,.5,1);
+}
+div a img.animate:hover{
+  box-shadow: 2px 4px 16px rgba(0,0,0,.16);
+  transform: scale3d(1.01,1.01,1.01);
+}

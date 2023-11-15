@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #CDF1D3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.50cm;
+  padding: 0px;
+  text-align: center;
+}
+table.nigga{
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.boton{
+  margin: 7px 14px;
+  padding: 10px 0px;
+  color: #FFFFFF;
+  font-size: 1.15rem;
+  background-color: #6CF084;
+  border: #6CF084 3px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+  transition: all .5s cubic-bezier(0,0,.5,1);
+}
+.boton:hover{
+  background-color: #33CB4F;
+  border: 3px solid  #fffefd;
+  border-radius: 8px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.16);
+  transform: scale3d(1.01,1.01,1.01);
+} 
+form button b {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.25cm;
+  padding: 0px ;
+}
+div h1, div h2 {
+  margin-top: 1;
+  font-family: 'Oswald', sans-serif;
+}
+table, tr, td{
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: black;
+}
+.border2{
+  background-color: #76E58C;
+  text-align:center;
+  font-family:  'Roboto', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+}
+#bold{
+  font-weight: 700;
+  font-size: 20px;
+}
